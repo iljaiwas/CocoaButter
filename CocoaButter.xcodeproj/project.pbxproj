@@ -8,6 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		4D17FCCB1BC80FA4001C5DA0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D17FCCA1BC80FA4001C5DA0 /* main.m */; };
+		4D17FCD31BC81045001C5DA0 /* CBModule.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D17FCD21BC81045001C5DA0 /* CBModule.m */; };
+		4D17FCD61BC814AC001C5DA0 /* CBEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D17FCD51BC814AC001C5DA0 /* CBEngine.m */; };
+		4D17FCD91BC81622001C5DA0 /* NSFileManager+CBAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D17FCD81BC81622001C5DA0 /* NSFileManager+CBAdditions.m */; };
+		4D19DEE61BCC136200214C7B /* CBGitWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D19DEE51BCC136200214C7B /* CBGitWrapper.m */; };
+		4D19DEE91BCC142400214C7B /* NSTask+CBAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D19DEE81BCC142400214C7B /* NSTask+CBAdditions.m */; };
+		4DF380221BCC420000D41BD6 /* NSColorLog.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DF380211BCC420000D41BD6 /* NSColorLog.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +31,18 @@
 /* Begin PBXFileReference section */
 		4D17FCC71BC80FA4001C5DA0 /* CocoaButter */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = CocoaButter; sourceTree = BUILT_PRODUCTS_DIR; };
 		4D17FCCA1BC80FA4001C5DA0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4D17FCD11BC81045001C5DA0 /* CBModule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CBModule.h; sourceTree = "<group>"; };
+		4D17FCD21BC81045001C5DA0 /* CBModule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CBModule.m; sourceTree = "<group>"; };
+		4D17FCD41BC814AC001C5DA0 /* CBEngine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CBEngine.h; sourceTree = "<group>"; };
+		4D17FCD51BC814AC001C5DA0 /* CBEngine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CBEngine.m; sourceTree = "<group>"; };
+		4D17FCD71BC81622001C5DA0 /* NSFileManager+CBAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSFileManager+CBAdditions.h"; sourceTree = "<group>"; };
+		4D17FCD81BC81622001C5DA0 /* NSFileManager+CBAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSFileManager+CBAdditions.m"; sourceTree = "<group>"; };
+		4D19DEE41BCC136200214C7B /* CBGitWrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CBGitWrapper.h; sourceTree = "<group>"; };
+		4D19DEE51BCC136200214C7B /* CBGitWrapper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CBGitWrapper.m; sourceTree = "<group>"; };
+		4D19DEE71BCC142400214C7B /* NSTask+CBAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSTask+CBAdditions.h"; sourceTree = "<group>"; };
+		4D19DEE81BCC142400214C7B /* NSTask+CBAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSTask+CBAdditions.m"; sourceTree = "<group>"; };
+		4DF380211BCC420000D41BD6 /* NSColorLog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSColorLog.m; sourceTree = "<group>"; };
+		4DF3802C1BCC441400D41BD6 /* NSColorLog.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NSColorLog.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +76,18 @@
 			isa = PBXGroup;
 			children = (
 				4D17FCCA1BC80FA4001C5DA0 /* main.m */,
+				4D17FCD11BC81045001C5DA0 /* CBModule.h */,
+				4D17FCD21BC81045001C5DA0 /* CBModule.m */,
+				4D17FCD41BC814AC001C5DA0 /* CBEngine.h */,
+				4D17FCD51BC814AC001C5DA0 /* CBEngine.m */,
+				4D17FCD71BC81622001C5DA0 /* NSFileManager+CBAdditions.h */,
+				4D17FCD81BC81622001C5DA0 /* NSFileManager+CBAdditions.m */,
+				4D19DEE41BCC136200214C7B /* CBGitWrapper.h */,
+				4D19DEE51BCC136200214C7B /* CBGitWrapper.m */,
+				4D19DEE71BCC142400214C7B /* NSTask+CBAdditions.h */,
+				4D19DEE81BCC142400214C7B /* NSTask+CBAdditions.m */,
+				4DF380211BCC420000D41BD6 /* NSColorLog.m */,
+				4DF3802C1BCC441400D41BD6 /* NSColorLog.h */,
 			);
 			path = CocoaButter;
 			sourceTree = "<group>";
@@ -118,7 +148,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4D19DEE61BCC136200214C7B /* CBGitWrapper.m in Sources */,
+				4D17FCD31BC81045001C5DA0 /* CBModule.m in Sources */,
+				4DF380221BCC420000D41BD6 /* NSColorLog.m in Sources */,
+				4D17FCD91BC81622001C5DA0 /* NSFileManager+CBAdditions.m in Sources */,
 				4D17FCCB1BC80FA4001C5DA0 /* main.m in Sources */,
+				4D19DEE91BCC142400214C7B /* NSTask+CBAdditions.m in Sources */,
+				4D17FCD61BC814AC001C5DA0 /* CBEngine.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -207,14 +243,14 @@
 		4D17FCCF1BC80FA4001C5DA0 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = CocoaButter;
 			};
 			name = Debug;
 		};
 		4D17FCD01BC80FA4001C5DA0 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = CocoaButter;
 			};
 			name = Release;
 		};
@@ -237,6 +273,7 @@
 				4D17FCD01BC80FA4001C5DA0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
