@@ -11,6 +11,8 @@
 #import "CBGitWrapper.h"
 #import "NSColorLog.h"
 
+#import "NSFileManager+CBAdditions.h"
+
 @interface CBModule ()
 
 /** Identifies a code repo on GitHub */
@@ -111,26 +113,65 @@
 	return [self.repo lastPathComponent];
 }
 
-- (void) updateIfNecessary
+- (BOOL) updateIfNecessary
 {
 	if (self.needsCheckout)
 	{
-		[CBGitWrapper cloneRepoFromURL:self.repoURL intoDirectory:self.repositoryDirectory];
+		NSLogGreen (@"Installing %@ %@", self.repo, self.revision);
+
+		if (NO == [CBGitWrapper cloneRepoFromURL:self.repoURL intoDirectory:self.repositoryDirectory])
+		{
+			NSLogRed(@"Cloning repo %@ failed", self.repo);
+			return NO;
+		}
 	}
 	else if (self.needsUpdateToDifferentRevision)
 	{
 		NSLogGreen (@"Installing %@ %@", self.repo, self.revision);
 
-		[CBGitWrapper updateRepoAtPath:self.repositoryDirectory toRevision:self.revision];
+		if (NO == [CBGitWrapper updateRepoAtPath:self.repositoryDirectory toRevision:self.revision])
+		{
+			NSLogRed(@"Updating repo %@ failed", self.repo);
+			return NO;
+		}
 	}
 	else
 	{
 		NSLog (@"Using %@ %@", self.repo, self.revision);
+		
+		if (NO == [CBGitWrapper resetRepoAtPath:self.repositoryDirectory])
+		{
+			NSLogRed(@"Resetting repo %@ failed", self.repo);
+			return NO;
+		}
 	}
+	return YES;
 }
 
 - (NSString*) repoURL
 {
 	return [NSString stringWithFormat:@"https://github.com/%@", self.repo];
+}
+
+/** All files paths matched by the receivers include filter. If an exclude filter is specified, it is used to remove files matched in the include filter. */
+- (NSArray*) effectiveFilePaths
+{
+	NSArray *includedFilePaths = [[NSFileManager defaultManager] subpathsOfDirectoryAtPath:self.repositoryDirectory matchingPattern:self.includeFilter];
+	
+	if (self.excludeFilter)
+	{
+		NSArray			*excludedFilePaths = [[NSFileManager defaultManager] subpathsOfDirectoryAtPath:self.repositoryDirectory matchingPattern:self.excludeFilter];
+		NSMutableArray	*tempPaths = [NSMutableArray array];
+		
+		for (NSString *path in excludedFilePaths)
+		{
+			if (![includedFilePaths containsObject:path])
+			{
+				[tempPaths addObject:path];
+			}
+		}
+		includedFilePaths = tempPaths.copy;
+	}
+	return includedFilePaths;
 }
 @end

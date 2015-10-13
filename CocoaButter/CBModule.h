@@ -12,6 +12,9 @@
 
 - (instancetype) initWithDictionary:(NSDictionary*) inDict butterDirectory:(NSString*) inButterDirectory;
 
-- (void) updateIfNecessary;
+- (BOOL)		updateIfNecessary;
+
+- (NSString*)	repositoryName;
+- (NSArray*)	effectiveFilePaths;
 
 @end

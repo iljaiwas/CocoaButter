@@ -55,4 +55,16 @@
 	return YES;
 }
 
++ (BOOL) resetRepoAtPath:(NSString*) inRepoPath
+{
+	NSParameterAssert(inRepoPath);
+	
+	NSString *command = [NSString stringWithFormat:@"cd %@ 2>&1 && " \
+						 @"git reset HEAD --hard 2>&1 && " \
+						 @"git checkout . 2>&1 && " \
+						 "git clean -fd 2>&1", inRepoPath];
+	[NSTask runCommand:command];
+	return YES;
+}
+
 @end

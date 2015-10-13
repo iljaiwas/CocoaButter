@@ -12,4 +12,7 @@
 
 - (instancetype) initWithProjectDirectoryPath:(NSString*) inProjectDir;
 
+- (BOOL) updateRepositories;
+- (BOOL) integrateIntoXcodeProject;
+
 @end

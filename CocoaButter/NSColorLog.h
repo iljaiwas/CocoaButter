@@ -9,3 +9,4 @@
 #import <Foundation/Foundation.h>
 
 void NSLogGreen (NSString *format, ...);
+void NSLogRed (NSString *format, ...);

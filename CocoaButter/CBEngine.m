@@ -9,7 +9,10 @@
 #import "CBEngine.h"
 
 #import "CBModule.h"
+#import "CBXcodeIntegrator.h"
+
 #import "NSFileManager+CBAdditions.h"
+#import "NSColorLog.h"
 
 @interface CBEngine ()
 
@@ -28,19 +31,20 @@
 	self = [super init];
 	if (self)
 	{
-		NSError *error;
-		
+		NSError			*error;
+		NSMutableArray	*foundModules = [NSMutableArray array];
+
 		_projectDirectoryPath = inProjectDir;
 		_xcodeProjectPath = [[NSFileManager defaultManager] subpathsOfDirectoryAtPath:inProjectDir matchingPattern:@"*.xcodeproj"].firstObject;
 		
 		if (nil == _xcodeProjectPath)
 		{
-			NSLog (@"No Xcode project found in directory %@", inProjectDir);
+			NSLogRed (@"No Xcode project found in directory %@", inProjectDir);
 			return nil;
 		}
 		if (![[NSFileManager defaultManager] fileExistsAtPath:@"CocoaButter.json"])
 		{
-			NSLog (@"No CocoaButter.json project found in directory %@", inProjectDir);
+			NSLogRed (@"No CocoaButter.json project found in directory %@", inProjectDir);
 			return nil;
 		}
 		NSData	*data = [NSData dataWithContentsOfFile:@"CocoaButter.json"];
@@ -48,19 +52,37 @@
 		
 		if (nil == moduleConfigs)
 		{
-			NSLog (@"%@", error.localizedDescription);
+			NSLogRed (@"Error reading CocoaButter.json:%@", error.localizedDescription);
 			return nil;
 		}
 		for (NSDictionary *moduleConfig in moduleConfigs)
 		{
 			CBModule *module = [[CBModule alloc] initWithDictionary:moduleConfig butterDirectory:self.butterDirectory];
 			
-			[module updateIfNecessary];
+			[foundModules addObject:module];
 		}
-		
-		
+		_modules = foundModules.copy;
 	}
 	return self;
+}
+
+- (BOOL) updateRepositories
+{
+	for (CBModule *module in self.modules)
+	{
+		if (NO == [module updateIfNecessary])
+		{
+			return NO;
+		}
+	}
+	return YES;
+}
+
+- (BOOL) integrateIntoXcodeProject
+{
+	CBXcodeIntegrator *integrator = [[CBXcodeIntegrator alloc] initWithProjectFileAtPath:self.xcodeProjectPath modules:self.modules];
+	
+	return [integrator integrateModulesIntoXcodeProject];
 }
 
 

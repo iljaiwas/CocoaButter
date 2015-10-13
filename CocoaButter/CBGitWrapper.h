@@ -13,5 +13,6 @@
 + (BOOL) cloneRepoFromURL:(NSString*) inRepoURL intoDirectory:(NSString*) inDestinationDirectory;
 + (BOOL) repoAtPath:(NSString*)inRepoPath hasRevision:(NSString*) inRevision;
 + (BOOL) updateRepoAtPath:(NSString*) inRepoPath toRevision:(NSString*)inRevision;
++ (BOOL) resetRepoAtPath:(NSString*) inRepoPath;
 
 @end

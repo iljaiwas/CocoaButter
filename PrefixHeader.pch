@@ -1,0 +1,16 @@
+//
+//  PrefixHeader.pch
+//  CocoaButter
+//
+//  Created by ilja on 13.10.15.
+//  Copyright © 2015 iwascoding GmbH. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+// Thank you, XcodeEditor, for assuming everybody is using PCHs!
+
+#import <Foundation/Foundation.h>
+
+#endif /* PrefixHeader_pch */

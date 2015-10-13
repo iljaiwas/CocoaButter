@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		018E7AF05B15F25BB68CEE1C /* XCProject.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F290B23520184A2CC35195 /* XCProject.m */; };
+		1F32A91CA0E3C722627A98EF /* XCXibDefinition.m in Sources */ = {isa = PBXBuildFile; fileRef = 70C83D7CAC1DFC20A57C045F /* XCXibDefinition.m */; };
+		1FEB10C04367815207DFF5D9 /* XCSubProjectDefinition.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DD8003C061E618C9956FDC0 /* XCSubProjectDefinition.m */; };
+		365C226F67F6B3A60F26EE23 /* XCProject+SubProject.m in Sources */ = {isa = PBXBuildFile; fileRef = 175FE0986CD22F157D2F3206 /* XCProject+SubProject.m */; };
 		4D17FCCB1BC80FA4001C5DA0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D17FCCA1BC80FA4001C5DA0 /* main.m */; };
 		4D17FCD31BC81045001C5DA0 /* CBModule.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D17FCD21BC81045001C5DA0 /* CBModule.m */; };
 		4D17FCD61BC814AC001C5DA0 /* CBEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D17FCD51BC814AC001C5DA0 /* CBEngine.m */; };
@@ -14,6 +18,19 @@
 		4D19DEE61BCC136200214C7B /* CBGitWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D19DEE51BCC136200214C7B /* CBGitWrapper.m */; };
 		4D19DEE91BCC142400214C7B /* NSTask+CBAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D19DEE81BCC142400214C7B /* NSTask+CBAdditions.m */; };
 		4DF380221BCC420000D41BD6 /* NSColorLog.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DF380211BCC420000D41BD6 /* NSColorLog.m */; };
+		4DF380301BCD075400D41BD6 /* CBXcodeIntegrator.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DF3802F1BCD075400D41BD6 /* CBXcodeIntegrator.m */; };
+		651CD8A282010419199FC49D /* XcodeMemberType.m in Sources */ = {isa = PBXBuildFile; fileRef = 91D3E773F80CD6CD4E323DA9 /* XcodeMemberType.m */; };
+		6B438FED24166841824333D7 /* XCKeyBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = E6241A8677A3842B68113A65 /* XCKeyBuilder.m */; };
+		920D9D2DC0CA0A4A12F46CB2 /* XCTarget.m in Sources */ = {isa = PBXBuildFile; fileRef = 00C0348659762F037959FF87 /* XCTarget.m */; };
+		94B6030099603F1E8BEF01B0 /* XCFileOperationQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 7ADDA7C55229CB2A038DA122 /* XCFileOperationQueue.m */; };
+		95BD7F16AB7F52DA217EA39F /* XCSourceFileDefinition.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A27063E42666C0E2523EB76 /* XCSourceFileDefinition.m */; };
+		AB309E33B0021E6D0100DA2A /* XCFrameworkDefinition.m in Sources */ = {isa = PBXBuildFile; fileRef = 086BA9A0998A1295B5234753 /* XCFrameworkDefinition.m */; };
+		AEDEEBDC596F475179557387 /* XCAbstractDefinition.m in Sources */ = {isa = PBXBuildFile; fileRef = 388BF365CD488B7C28392A06 /* XCAbstractDefinition.m */; };
+		CA1F01CDB856A3C8680DD803 /* XcodeSourceFileType.m in Sources */ = {isa = PBXBuildFile; fileRef = 1754BD8D771D8DE468AF7C20 /* XcodeSourceFileType.m */; };
+		CD40F1B31E4A5885C866936D /* XCProjectBuildConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 498027479D1AE77472A42E7C /* XCProjectBuildConfig.m */; };
+		D3B37CCB8D383F9EAB73BA17 /* XCClassDefinition.m in Sources */ = {isa = PBXBuildFile; fileRef = 229C38404FEB4D170CCD1466 /* XCClassDefinition.m */; };
+		E7EE43ADFA44695BFA33588B /* XCSourceFile.m in Sources */ = {isa = PBXBuildFile; fileRef = 33AB4B341FAA6B0F1BB705BD /* XCSourceFile.m */; };
+		EF5FF94DEF4D5A2ADCD372FC /* XCGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = B315E31018F81047D6D4A738 /* XCGroup.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -29,6 +46,22 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		00C0348659762F037959FF87 /* XCTarget.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XCTarget.m; path = Seeds/XcodeEditor/Source/XCTarget.m; sourceTree = "<group>"; };
+		04630D8BBF636BD259D8A365 /* XCTarget.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XCTarget.h; path = Seeds/XcodeEditor/Source/XCTarget.h; sourceTree = "<group>"; };
+		086BA9A0998A1295B5234753 /* XCFrameworkDefinition.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XCFrameworkDefinition.m; path = Seeds/XcodeEditor/Source/XCFrameworkDefinition.m; sourceTree = "<group>"; };
+		0BCA8852E337A901F991F89C /* XCFrameworkDefinition.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XCFrameworkDefinition.h; path = Seeds/XcodeEditor/Source/XCFrameworkDefinition.h; sourceTree = "<group>"; };
+		0C389C53368FD704CCB3A2BE /* XCClassDefinition.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XCClassDefinition.h; path = Seeds/XcodeEditor/Source/XCClassDefinition.h; sourceTree = "<group>"; };
+		1754BD8D771D8DE468AF7C20 /* XcodeSourceFileType.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XcodeSourceFileType.m; path = Seeds/XcodeEditor/Source/XcodeSourceFileType.m; sourceTree = "<group>"; };
+		175FE0986CD22F157D2F3206 /* XCProject+SubProject.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "XCProject+SubProject.m"; path = "Seeds/XcodeEditor/Source/XCProject+SubProject.m"; sourceTree = "<group>"; };
+		179DB96A696E3586F67EC6F0 /* XCAbstractDefinition.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XCAbstractDefinition.h; path = Seeds/XcodeEditor/Source/XCAbstractDefinition.h; sourceTree = "<group>"; };
+		18F290B23520184A2CC35195 /* XCProject.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XCProject.m; path = Seeds/XcodeEditor/Source/XCProject.m; sourceTree = "<group>"; };
+		229C38404FEB4D170CCD1466 /* XCClassDefinition.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XCClassDefinition.m; path = Seeds/XcodeEditor/Source/XCClassDefinition.m; sourceTree = "<group>"; };
+		2F1037D8830F7E906A0B81FC /* XcodeEditor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XcodeEditor.h; path = Seeds/XcodeEditor/Source/XcodeEditor.h; sourceTree = "<group>"; };
+		33AB4B341FAA6B0F1BB705BD /* XCSourceFile.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XCSourceFile.m; path = Seeds/XcodeEditor/Source/XCSourceFile.m; sourceTree = "<group>"; };
+		388BF365CD488B7C28392A06 /* XCAbstractDefinition.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XCAbstractDefinition.m; path = Seeds/XcodeEditor/Source/XCAbstractDefinition.m; sourceTree = "<group>"; };
+		38FC9EDF8289029A83FF63B0 /* XCSourceFileDefinition.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XCSourceFileDefinition.h; path = Seeds/XcodeEditor/Source/XCSourceFileDefinition.h; sourceTree = "<group>"; };
+		3D1B7F9BCB236387EE30842F /* XcodeMemberType.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XcodeMemberType.h; path = Seeds/XcodeEditor/Source/XcodeMemberType.h; sourceTree = "<group>"; };
+		498027479D1AE77472A42E7C /* XCProjectBuildConfig.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XCProjectBuildConfig.m; path = Seeds/XcodeEditor/Source/XCProjectBuildConfig.m; sourceTree = "<group>"; };
 		4D17FCC71BC80FA4001C5DA0 /* CocoaButter */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = CocoaButter; sourceTree = BUILT_PRODUCTS_DIR; };
 		4D17FCCA1BC80FA4001C5DA0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		4D17FCD11BC81045001C5DA0 /* CBModule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CBModule.h; sourceTree = "<group>"; };
@@ -41,8 +74,29 @@
 		4D19DEE51BCC136200214C7B /* CBGitWrapper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CBGitWrapper.m; sourceTree = "<group>"; };
 		4D19DEE71BCC142400214C7B /* NSTask+CBAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSTask+CBAdditions.h"; sourceTree = "<group>"; };
 		4D19DEE81BCC142400214C7B /* NSTask+CBAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSTask+CBAdditions.m"; sourceTree = "<group>"; };
+		4DD8003C061E618C9956FDC0 /* XCSubProjectDefinition.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XCSubProjectDefinition.m; path = Seeds/XcodeEditor/Source/XCSubProjectDefinition.m; sourceTree = "<group>"; };
 		4DF380211BCC420000D41BD6 /* NSColorLog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSColorLog.m; sourceTree = "<group>"; };
 		4DF3802C1BCC441400D41BD6 /* NSColorLog.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NSColorLog.h; sourceTree = "<group>"; };
+		4DF3802D1BCD016300D41BD6 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = PrefixHeader.pch; path = ../PrefixHeader.pch; sourceTree = "<group>"; };
+		4DF3802E1BCD075400D41BD6 /* CBXcodeIntegrator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CBXcodeIntegrator.h; sourceTree = "<group>"; };
+		4DF3802F1BCD075400D41BD6 /* CBXcodeIntegrator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CBXcodeIntegrator.m; sourceTree = "<group>"; };
+		4F1E2ADAB0E5CD18D730A727 /* XCProjectBuildConfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XCProjectBuildConfig.h; path = Seeds/XcodeEditor/Source/XCProjectBuildConfig.h; sourceTree = "<group>"; };
+		655E237E28EE32BD33BFC40C /* XcodeGroupMember.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XcodeGroupMember.h; path = Seeds/XcodeEditor/Source/XcodeGroupMember.h; sourceTree = "<group>"; };
+		6A27063E42666C0E2523EB76 /* XCSourceFileDefinition.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XCSourceFileDefinition.m; path = Seeds/XcodeEditor/Source/XCSourceFileDefinition.m; sourceTree = "<group>"; };
+		70C83D7CAC1DFC20A57C045F /* XCXibDefinition.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XCXibDefinition.m; path = Seeds/XcodeEditor/Source/XCXibDefinition.m; sourceTree = "<group>"; };
+		7ADDA7C55229CB2A038DA122 /* XCFileOperationQueue.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XCFileOperationQueue.m; path = Seeds/XcodeEditor/Source/XCFileOperationQueue.m; sourceTree = "<group>"; };
+		802C680863397604403D18BD /* XCFileOperationQueue.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XCFileOperationQueue.h; path = Seeds/XcodeEditor/Source/XCFileOperationQueue.h; sourceTree = "<group>"; };
+		808ACC85E7250DA40F67C837 /* XCGroup.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XCGroup.h; path = Seeds/XcodeEditor/Source/XCGroup.h; sourceTree = "<group>"; };
+		893E3D62B026A21634BE0F57 /* XcodeSourceFileType.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XcodeSourceFileType.h; path = Seeds/XcodeEditor/Source/XcodeSourceFileType.h; sourceTree = "<group>"; };
+		91D3E773F80CD6CD4E323DA9 /* XcodeMemberType.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XcodeMemberType.m; path = Seeds/XcodeEditor/Source/XcodeMemberType.m; sourceTree = "<group>"; };
+		9330C7476B9AB9F653B5709C /* XCXibDefinition.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XCXibDefinition.h; path = Seeds/XcodeEditor/Source/XCXibDefinition.h; sourceTree = "<group>"; };
+		9471D9F4013006F87C025F8A /* XCKeyBuilder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XCKeyBuilder.h; path = Seeds/XcodeEditor/Source/Utils/XCKeyBuilder.h; sourceTree = "<group>"; };
+		B315E31018F81047D6D4A738 /* XCGroup.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XCGroup.m; path = Seeds/XcodeEditor/Source/XCGroup.m; sourceTree = "<group>"; };
+		BF9D86EFEF6DC4925243235F /* XCSubProjectDefinition.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XCSubProjectDefinition.h; path = Seeds/XcodeEditor/Source/XCSubProjectDefinition.h; sourceTree = "<group>"; };
+		D7643483B259CEF0077276BE /* XCProject+SubProject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "XCProject+SubProject.h"; path = "Seeds/XcodeEditor/Source/XCProject+SubProject.h"; sourceTree = "<group>"; };
+		E6241A8677A3842B68113A65 /* XCKeyBuilder.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XCKeyBuilder.m; path = Seeds/XcodeEditor/Source/Utils/XCKeyBuilder.m; sourceTree = "<group>"; };
+		E6AE4B67A3963CB765245C79 /* XCSourceFile.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XCSourceFile.h; path = Seeds/XcodeEditor/Source/XCSourceFile.h; sourceTree = "<group>"; };
+		E8613725CF7703AA3A590901 /* XCProject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XCProject.h; path = Seeds/XcodeEditor/Source/XCProject.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,11 +110,61 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		063E5F0639D39825CEBDEA59 /* XcodeEditor */ = {
+			isa = PBXGroup;
+			children = (
+				179DB96A696E3586F67EC6F0 /* XCAbstractDefinition.h */,
+				0C389C53368FD704CCB3A2BE /* XCClassDefinition.h */,
+				802C680863397604403D18BD /* XCFileOperationQueue.h */,
+				0BCA8852E337A901F991F89C /* XCFrameworkDefinition.h */,
+				808ACC85E7250DA40F67C837 /* XCGroup.h */,
+				2F1037D8830F7E906A0B81FC /* XcodeEditor.h */,
+				655E237E28EE32BD33BFC40C /* XcodeGroupMember.h */,
+				3D1B7F9BCB236387EE30842F /* XcodeMemberType.h */,
+				893E3D62B026A21634BE0F57 /* XcodeSourceFileType.h */,
+				D7643483B259CEF0077276BE /* XCProject+SubProject.h */,
+				E8613725CF7703AA3A590901 /* XCProject.h */,
+				4F1E2ADAB0E5CD18D730A727 /* XCProjectBuildConfig.h */,
+				E6AE4B67A3963CB765245C79 /* XCSourceFile.h */,
+				38FC9EDF8289029A83FF63B0 /* XCSourceFileDefinition.h */,
+				BF9D86EFEF6DC4925243235F /* XCSubProjectDefinition.h */,
+				04630D8BBF636BD259D8A365 /* XCTarget.h */,
+				9330C7476B9AB9F653B5709C /* XCXibDefinition.h */,
+				388BF365CD488B7C28392A06 /* XCAbstractDefinition.m */,
+				229C38404FEB4D170CCD1466 /* XCClassDefinition.m */,
+				7ADDA7C55229CB2A038DA122 /* XCFileOperationQueue.m */,
+				086BA9A0998A1295B5234753 /* XCFrameworkDefinition.m */,
+				B315E31018F81047D6D4A738 /* XCGroup.m */,
+				91D3E773F80CD6CD4E323DA9 /* XcodeMemberType.m */,
+				1754BD8D771D8DE468AF7C20 /* XcodeSourceFileType.m */,
+				175FE0986CD22F157D2F3206 /* XCProject+SubProject.m */,
+				18F290B23520184A2CC35195 /* XCProject.m */,
+				498027479D1AE77472A42E7C /* XCProjectBuildConfig.m */,
+				33AB4B341FAA6B0F1BB705BD /* XCSourceFile.m */,
+				6A27063E42666C0E2523EB76 /* XCSourceFileDefinition.m */,
+				4DD8003C061E618C9956FDC0 /* XCSubProjectDefinition.m */,
+				00C0348659762F037959FF87 /* XCTarget.m */,
+				70C83D7CAC1DFC20A57C045F /* XCXibDefinition.m */,
+				9471D9F4013006F87C025F8A /* XCKeyBuilder.h */,
+				E6241A8677A3842B68113A65 /* XCKeyBuilder.m */,
+			);
+			name = XcodeEditor;
+			sourceTree = "<group>";
+		};
+		0739FA024AB80925B32D64D1 /* Seeds */ = {
+			isa = PBXGroup;
+			children = (
+				063E5F0639D39825CEBDEA59 /* XcodeEditor */,
+			);
+			name = Seeds;
+			sourceTree = "<group>";
+		};
 		4D17FCBE1BC80FA4001C5DA0 = {
 			isa = PBXGroup;
 			children = (
 				4D17FCC91BC80FA4001C5DA0 /* CocoaButter */,
 				4D17FCC81BC80FA4001C5DA0 /* Products */,
+				0739FA024AB80925B32D64D1 /* Seeds */,
 			);
 			sourceTree = "<group>";
 		};
@@ -88,6 +192,9 @@
 				4D19DEE81BCC142400214C7B /* NSTask+CBAdditions.m */,
 				4DF380211BCC420000D41BD6 /* NSColorLog.m */,
 				4DF3802C1BCC441400D41BD6 /* NSColorLog.h */,
+				4DF3802D1BCD016300D41BD6 /* PrefixHeader.pch */,
+				4DF3802E1BCD075400D41BD6 /* CBXcodeIntegrator.h */,
+				4DF3802F1BCD075400D41BD6 /* CBXcodeIntegrator.m */,
 			);
 			path = CocoaButter;
 			sourceTree = "<group>";
@@ -153,8 +260,25 @@
 				4DF380221BCC420000D41BD6 /* NSColorLog.m in Sources */,
 				4D17FCD91BC81622001C5DA0 /* NSFileManager+CBAdditions.m in Sources */,
 				4D17FCCB1BC80FA4001C5DA0 /* main.m in Sources */,
+				4DF380301BCD075400D41BD6 /* CBXcodeIntegrator.m in Sources */,
 				4D19DEE91BCC142400214C7B /* NSTask+CBAdditions.m in Sources */,
 				4D17FCD61BC814AC001C5DA0 /* CBEngine.m in Sources */,
+				AEDEEBDC596F475179557387 /* XCAbstractDefinition.m in Sources */,
+				D3B37CCB8D383F9EAB73BA17 /* XCClassDefinition.m in Sources */,
+				94B6030099603F1E8BEF01B0 /* XCFileOperationQueue.m in Sources */,
+				AB309E33B0021E6D0100DA2A /* XCFrameworkDefinition.m in Sources */,
+				EF5FF94DEF4D5A2ADCD372FC /* XCGroup.m in Sources */,
+				651CD8A282010419199FC49D /* XcodeMemberType.m in Sources */,
+				CA1F01CDB856A3C8680DD803 /* XcodeSourceFileType.m in Sources */,
+				365C226F67F6B3A60F26EE23 /* XCProject+SubProject.m in Sources */,
+				018E7AF05B15F25BB68CEE1C /* XCProject.m in Sources */,
+				CD40F1B31E4A5885C866936D /* XCProjectBuildConfig.m in Sources */,
+				E7EE43ADFA44695BFA33588B /* XCSourceFile.m in Sources */,
+				95BD7F16AB7F52DA217EA39F /* XCSourceFileDefinition.m in Sources */,
+				1FEB10C04367815207DFF5D9 /* XCSubProjectDefinition.m in Sources */,
+				920D9D2DC0CA0A4A12F46CB2 /* XCTarget.m in Sources */,
+				1F32A91CA0E3C722627A98EF /* XCXibDefinition.m in Sources */,
+				6B438FED24166841824333D7 /* XCKeyBuilder.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -243,6 +367,9 @@
 		4D17FCCF1BC80FA4001C5DA0 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SOURCE_ROOT)/PrefixHeader.pch";
 				PRODUCT_NAME = CocoaButter;
 			};
 			name = Debug;
@@ -250,6 +377,9 @@
 		4D17FCD01BC80FA4001C5DA0 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SOURCE_ROOT)/PrefixHeader.pch";
 				PRODUCT_NAME = CocoaButter;
 			};
 			name = Release;
