@@ -15,14 +15,15 @@
 
 - (NSArray*) subpathsOfDirectoryAtPath:(NSString *)inDirectory matchingPattern:(NSString*) inPattern
 {
-	
 	NSMutableArray* files = [NSMutableArray array];
 	glob_t			gt;
 	NSString*		globPathComponent = [NSString stringWithFormat: @"/%@", inPattern];
 	NSString*		expandedDirectory = [inDirectory stringByExpandingTildeInPath];
 	const char*		fullPattern = [[expandedDirectory stringByAppendingPathComponent: globPathComponent] UTF8String];
+	int				globReturn;
 	
-	if (glob(fullPattern, 0, NULL, &gt) == 0)
+	globReturn= glob(fullPattern, GLOB_BRACE, NULL, &gt);
+	if ( globReturn == 0)
 	{
 		for (int i=0; i<gt.gl_matchc; i++)
 		{

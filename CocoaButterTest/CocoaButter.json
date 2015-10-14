@@ -1,0 +1,3 @@
+[{"repo" : "appsquickly/Typhoon",
+"revision" : "3.3.3",
+"includeFilter": "{Source/{Configuration,Definition,Factory,TypeConversion,ios}/**/*.{h,m},Source/{Configuration,Definition,Factory,TypeConversion,ios}/*.{h,m}}"}]

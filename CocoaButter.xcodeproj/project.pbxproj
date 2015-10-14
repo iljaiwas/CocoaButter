@@ -19,6 +19,7 @@
 		4D19DEE91BCC142400214C7B /* NSTask+CBAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D19DEE81BCC142400214C7B /* NSTask+CBAdditions.m */; };
 		4DF380221BCC420000D41BD6 /* NSColorLog.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DF380211BCC420000D41BD6 /* NSColorLog.m */; };
 		4DF380301BCD075400D41BD6 /* CBXcodeIntegrator.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DF3802F1BCD075400D41BD6 /* CBXcodeIntegrator.m */; };
+		4DF380561BCD47C000D41BD6 /* NSString+CBAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DF380551BCD47C000D41BD6 /* NSString+CBAdditions.m */; };
 		651CD8A282010419199FC49D /* XcodeMemberType.m in Sources */ = {isa = PBXBuildFile; fileRef = 91D3E773F80CD6CD4E323DA9 /* XcodeMemberType.m */; };
 		6B438FED24166841824333D7 /* XCKeyBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = E6241A8677A3842B68113A65 /* XCKeyBuilder.m */; };
 		920D9D2DC0CA0A4A12F46CB2 /* XCTarget.m in Sources */ = {isa = PBXBuildFile; fileRef = 00C0348659762F037959FF87 /* XCTarget.m */; };
@@ -80,6 +81,10 @@
 		4DF3802D1BCD016300D41BD6 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = PrefixHeader.pch; path = ../PrefixHeader.pch; sourceTree = "<group>"; };
 		4DF3802E1BCD075400D41BD6 /* CBXcodeIntegrator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CBXcodeIntegrator.h; sourceTree = "<group>"; };
 		4DF3802F1BCD075400D41BD6 /* CBXcodeIntegrator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CBXcodeIntegrator.m; sourceTree = "<group>"; };
+		4DF380511BCD321F00D41BD6 /* XCGroup+CBAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "XCGroup+CBAdditions.h"; sourceTree = "<group>"; };
+		4DF380521BCD321F00D41BD6 /* XCGroup+CBAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "XCGroup+CBAdditions.m"; sourceTree = "<group>"; };
+		4DF380541BCD47C000D41BD6 /* NSString+CBAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+CBAdditions.h"; sourceTree = "<group>"; };
+		4DF380551BCD47C000D41BD6 /* NSString+CBAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+CBAdditions.m"; sourceTree = "<group>"; };
 		4F1E2ADAB0E5CD18D730A727 /* XCProjectBuildConfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XCProjectBuildConfig.h; path = Seeds/XcodeEditor/Source/XCProjectBuildConfig.h; sourceTree = "<group>"; };
 		655E237E28EE32BD33BFC40C /* XcodeGroupMember.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XcodeGroupMember.h; path = Seeds/XcodeEditor/Source/XcodeGroupMember.h; sourceTree = "<group>"; };
 		6A27063E42666C0E2523EB76 /* XCSourceFileDefinition.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XCSourceFileDefinition.m; path = Seeds/XcodeEditor/Source/XCSourceFileDefinition.m; sourceTree = "<group>"; };
@@ -195,6 +200,10 @@
 				4DF3802D1BCD016300D41BD6 /* PrefixHeader.pch */,
 				4DF3802E1BCD075400D41BD6 /* CBXcodeIntegrator.h */,
 				4DF3802F1BCD075400D41BD6 /* CBXcodeIntegrator.m */,
+				4DF380511BCD321F00D41BD6 /* XCGroup+CBAdditions.h */,
+				4DF380521BCD321F00D41BD6 /* XCGroup+CBAdditions.m */,
+				4DF380541BCD47C000D41BD6 /* NSString+CBAdditions.h */,
+				4DF380551BCD47C000D41BD6 /* NSString+CBAdditions.m */,
 			);
 			path = CocoaButter;
 			sourceTree = "<group>";
@@ -260,6 +269,7 @@
 				4DF380221BCC420000D41BD6 /* NSColorLog.m in Sources */,
 				4D17FCD91BC81622001C5DA0 /* NSFileManager+CBAdditions.m in Sources */,
 				4D17FCCB1BC80FA4001C5DA0 /* main.m in Sources */,
+				4DF380561BCD47C000D41BD6 /* NSString+CBAdditions.m in Sources */,
 				4DF380301BCD075400D41BD6 /* CBXcodeIntegrator.m in Sources */,
 				4D19DEE91BCC142400214C7B /* NSTask+CBAdditions.m in Sources */,
 				4D17FCD61BC814AC001C5DA0 /* CBEngine.m in Sources */,
