@@ -8,7 +8,12 @@ CocoaButter is aimed to become a dependency manager for Xcode projects written i
 
 #Project status
 
-This project needs help, it hasn't even reached proof-of-concept stage. I spent my self-imposed time budget on this project and need to start working on other tasks. Main blocker is this issue:
+This project needs help, it hasn't even reached proof-of-concept stage. I spent my self-imposed time budget on this project and need to start working on other tasks. Main blocker is this issue #1.
+
+- [x] parse simple JSON file
+- [x] download sources files from GitHub
+- [x] integrate sources into Xcode project file
+- [ ] get target project to compile after integration 
 
 
 #Concept

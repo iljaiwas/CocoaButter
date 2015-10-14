@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "ED081D7372570C5746E8CDE6B7712D19BB929453",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "ED081D7372570C5746E8CDE6B7712D19BB929453" : 0,
+    "E5485595BC9B5E4164B3342838D169783ED40D72" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "88D1CBD6-3127-44CF-9BAF-84B1591756A8",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "ED081D7372570C5746E8CDE6B7712D19BB929453" : "CocoaButter\/",
+    "E5485595BC9B5E4164B3342838D169783ED40D72" : "CocoaButter\/Seeds\/XcodeEditor\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "CocoaButter",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "CocoaButter.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/appsquickly\/XcodeEditor\/",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "E5485595BC9B5E4164B3342838D169783ED40D72"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/iljaiwas\/CocoaButter.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "ED081D7372570C5746E8CDE6B7712D19BB929453"
+    }
+  ]
+}
