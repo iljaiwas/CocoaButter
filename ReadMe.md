@@ -3,8 +3,8 @@ CocoaButter is aimed to become a dependency manager for Xcode projects written i
 #Motivation
 
 - I'm not a ruby programmer, nor do I want to become one just for the sake of fixing my build system. 
-- I want to reduce the number of dependencies of my project's build chain (ruby, gem, pod specs, additional subprojects, etc.).
-- I'm aware that such a simple system doesn't fit everyone's needs. If you have more complex needs, please look somewhere [else](https://cocoapods.org).
+- I want to reduce the number of dependencies and complexity of my project's build chain (ruby, gem, pod specs, additional workspaces or frameworks, build phases, etc.).
+- I'm aware that such a simple system doesn't fit everyone's needs. If you have more complex needs, please look [here](https://cocoapods.org) or here [here](https://github.com/Carthage/Carthage).
 
 #Project status
 
